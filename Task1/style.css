@@ -92,7 +92,7 @@ font-family: sans-serif;
 
 .column {
     float: left;
-    width: 340px;
+    width: 33.3%;
     height: 300px; /* Should be removed. Only for demonstration */
   }
   
@@ -106,4 +106,5 @@ font-family: sans-serif;
   * {
     box-sizing: border-box;
   }
+
 
