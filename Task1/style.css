@@ -69,7 +69,7 @@ font-family: sans-serif;
     padding: 10px;
     padding-left: 14px;
     padding-right: 14px;
-    border-radius: 2px;
+    border-radius: 5px;
     border-style: solid;
     background-color: #fdee00;
 }
@@ -79,7 +79,7 @@ font-family: sans-serif;
     padding: 10px;
     padding-left: 14px;
     padding-right: 14px;
-    border-radius: 2px;
+    border-radius: 5px;
     border-style: solid;
     background-color: purple;
 }
