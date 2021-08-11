@@ -70,7 +70,7 @@ font-family: sans-serif;
     padding-left: 14px;
     padding-right: 14px;
     border-radius: 5px;
-    border-style: solid;
+    border-style: hidden;
     background-color: #fdee00;
 }
  
@@ -80,14 +80,14 @@ font-family: sans-serif;
     padding-left: 14px;
     padding-right: 14px;
     border-radius: 5px;
-    border-style: solid;
-    background-color: purple;
+    border-style: hidden;
+    background-color: #3c1f41;
 }
 
 #feat
 {
     font-size: 35px;
-    color: purple;
+    color: #3c1f41;
 }
 
 .column {
@@ -106,5 +106,33 @@ font-family: sans-serif;
   * {
     box-sizing: border-box;
   }
+
+p
+{
+color: black;
+}
+
+#buy
+{
+    background-color: #fdee00 ;
+    color: black;
+    border-radius: 4px;
+    border-style: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.vertical {
+    border-left: 2px solid black;
+    height: 200px;
+}
+
+.video
+{
+    background-color: #3c1f41;
+    color: white;
+}
+
+
 
 
