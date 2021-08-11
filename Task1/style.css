@@ -122,17 +122,10 @@ color: black;
     padding-right: 16px;
 }
 
-.vertical {
-    border-left: 2px solid black;
-    height: 200px;
-}
 
 .video
 {
     background-color: #3c1f41;
     color: white;
 }
-
-
-
 
