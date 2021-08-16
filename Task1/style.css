@@ -268,4 +268,34 @@ body{
     scroll-behavior: smooth;
 }
 
+textarea
+{
+    width: 280px;
+    height: 120px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+input
+{
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#send
+{
+    width: 280px;
+    height: 35px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #3c1f41;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
  
