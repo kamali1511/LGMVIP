@@ -9,7 +9,8 @@
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #fff;
+    color: goldenrod;
+    transform: scale(1.15);
     text-decoration: none;
 }
 
@@ -32,6 +33,7 @@
 .navbar.active .nav-link:focus {
     color: #555;
     text-decoration: none;
+    transform: scale(1.05);
 }
 
 .navbar.active .navbar-brand {
@@ -72,6 +74,13 @@ font-family: sans-serif;
     border-radius: 5px;
     border-style: hidden;
     background-color: #FFDE00;
+    text-decoration: none;
+}
+
+#button1:hover
+{
+   background-color: yellow;
+    text-decoration: none;
 }
  
 #button2
@@ -82,6 +91,12 @@ font-family: sans-serif;
     border-radius: 5px;
     border-style: hidden;
     background-color: #3c1f41;
+}
+
+#button2:hover
+{
+   background-color: #753a88;
+    text-decoration: none;
 }
 
 #feat
@@ -131,6 +146,7 @@ color: black;
 .card:hover
 {
     background-color: #FFDE00 ;
+    transform: scale(1.05);
 }
 
 
@@ -250,7 +266,7 @@ background-color: #3c1f41;
     padding-left: 14px;
     padding-right: 14px;
     border-radius: 5px;
-    border-style: solid;
+    border-style: hidden;
     background-color: white;
     color: black;
     text-decoration: none;
@@ -294,7 +310,12 @@ input
     color: white;
 }
 
-a{
+#send:hover
+{
+    transform: scale(1.05);
+}
+
+body a{
     text-decoration: none;
 }
 
