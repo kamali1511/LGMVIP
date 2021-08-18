@@ -1,0 +1,16 @@
+#card
+{
+    display: inline-block;
+    padding-left: 160px;
+}
+
+
+#hovereffect:hover
+{
+    transform: scale(1.15);
+}
+
+h5
+{
+    text-align: center;
+}
