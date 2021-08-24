@@ -1,7 +1,6 @@
 import React, {Component}  from 'react';
 import SearchBox from '../components/SearchBox';
 import CardList from '../components/CardList';
-import Scroll from '../components/Scroll';
 import Navbar from '../components/Navigation/Navigation';
 import Loader from './loader';
 import './styles.css';
@@ -78,10 +77,7 @@ class App extends Component{
                       <br></br><br></br>
                       <h1>User Information Cards</h1><br></br><br></br>
                       <SearchBox searchChange={this.onSearchChange}/>
-                      <Scroll>
                         <CardList people={filteredRobots}/>
-                      </Scroll>
-
                   </div>
                  </>
               );
